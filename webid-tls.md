@@ -9,12 +9,15 @@
 
 *Introduction*
 
-In this tutorial you will learn how to setup your own certificate and put a public key in your solid pod to be authenticated with your browser.
+In this tutorial you will learn how to setup your own certificate and put a public key in your solid pod to be authenticated with your browser. 
+Normally you could use a mechanism involving the html <keygen> element such as in [node-solid server](https://github.com/solid/node-solid-server#readme). Unfortunately this is [deprecated by major browsers](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Keygen).
 
-This procedure is required but should be replaced by one of these "one-click" solutions in the future :
+Although, it should be replaced by one of these "one-click" solutions in the future :
 
 * The <keygen> element which is no longer supported could be replaced by an authentication api for browsers ;
-* Someone makes an easy to use tool to automatically execute the commands below and add the certificate to the OS ;-).  
+* Someone makes an easy to use tool to automatically execute the commands and add the certificate to the OS 😋.  
+
+For now, we will manually create all we need to have a functional WebId certificate.
 
 *Prerequisites*
 
