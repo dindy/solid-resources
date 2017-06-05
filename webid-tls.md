@@ -18,6 +18,7 @@ For now, we will manually create all we need to have a functional WebId certific
 2. Create a certificate
 3. Import the certificate in your browser
 4. Add the certificate to your WebId profile
+5. Enjoy !
 
 **Prerequisites**
 
@@ -207,6 +208,8 @@ You should have something like :
         rdfs:label "made on 2017-06-04 on my laptop";
         cert:modulus "d0c1c30c874f1fc14f1913ae29ba2bd1e96c375f8c7ab7eea919977880d62a66a51d843bb8cfaa959518b279322f45ae90792e544208eab339375c920708017890431dc118ee739ab0be38f3b7b04b16066d4a204a6827c5ccfa24bdb06e546214092e02daa53d71eec2e10fe5fd3650cc360cb79f268e7d89a50c77f54bfb09adc33bbf66d52d89dfb33750c4006bcb339cb7e5f2a5f76cc724bae2971159ae226c49d84da6d0bc2b5e265ba255b3a24d9970a6d122859e276f5e3529c7c8544ab3c02e16419076d8a2a7b997a38d037d6965352ef7f1f750dbf64a1c44c0e119531706f68c4b8b8896acccc10cfd55a7b983b94c77b895019f401c86886483"^^xsd:hexBinary;
         cert:exponent 65537 .
+
+## 5. Enjoy !
 
 Now you only have to load a url of your solid pod. The browser should ask you to select a key. Select the one you've just added to the browser. Confirm. You're authenticated !
 
