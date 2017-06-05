@@ -8,7 +8,7 @@ Normally you could use a mechanism involving the html `<keygen>` element such as
 Although, it should be replaced by one of these "one-click" solutions in the future :
 
 * The `<keygen>` element which is no longer supported could be replaced by an authentication api for browsers ;
-* Someone makes an easy to use tool to automatically execute the commands and add the certificate to the OS 😋.  
+* Someone could make an easy to use tool to automatically execute the commands and add the certificate to the OS 😋.  
 
 For now, we will manually create all we need to have a functional WebId certificate.
 
