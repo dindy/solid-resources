@@ -159,9 +159,10 @@ Add a new subject to the profile :
         cert:exponent 65537 .
 
 **Note** : You have to make some modifications to the modulus :
-	- delete all `:` between bits ;
-	- delete all spaces and line break ;
-	- delete the two leading zeros.
+
+	* delete all `:` between bits ;
+	* delete all spaces and line break ;
+	* delete the two leading zeros.
 
 You should end with something like :
 
