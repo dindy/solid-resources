@@ -164,7 +164,7 @@ Add a new subject to the profile :
 * delete all spaces and line break ;
 * delete the two leading zeros.
 
-You should end with something like :
+You should have something like :
 
     @prefix cert: <http://www.w3.org/ns/auth/cert#> .
     @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
