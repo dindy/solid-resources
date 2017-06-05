@@ -39,7 +39,7 @@ This gives you `id_rsa` (private key) and `id_rsa.pub` (public key).
 
 ### 2.1 Configuration file for openssl
 
-Now we will use openssl. First of all you need a default config file. If you have a local web server with PHP you can copy `path\to\xAMP\bin\php\php7.0.4\extras\ssl\openssl.cnf` for example.
+Now we will use openssl. First of all you need a default config file. If you have a local web server with PHP you can copy `path/to/xAMP/bin/php/php7.0.4/extras/ssl/openssl.cnf` for example.
 
 Then you have to append a few lines in order to be compliant with [WebID-TLS](https://dvcs.w3.org/hg/WebID/raw-file/tip/spec/tls-respec.html#certificate-example).
 
