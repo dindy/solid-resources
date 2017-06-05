@@ -4,9 +4,6 @@
 
 1. Create an asymetric key pair
 2. Create a certificate
-    2.1 Configuration file for openssl
-    2.2 Generate the certificate
-    2.3 Output the certificate
 3. Import the certificate in your browser
 4. Add the certificate to your WebId profile
 
