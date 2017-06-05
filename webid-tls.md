@@ -1,13 +1,6 @@
 # Get WebID + TLS working for you !
 
-*Summary*
-
-1. Create an asymetric key pair
-2. Create a certificate
-3. Import the certificate in your browser
-4. Add the certificate to your WebId profile
-
-*Introduction*
+**Introduction**
 
 In this tutorial you will learn how to setup your own certificate and put a public key in your solid pod to be authenticated with your browser. 
 Normally you could use a mechanism involving the html <keygen> element such as in [node-solid server](https://github.com/solid/node-solid-server#readme). Unfortunately this is [deprecated by major browsers](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Keygen).
@@ -19,7 +12,14 @@ Although, it should be replaced by one of these "one-click" solutions in the fut
 
 For now, we will manually create all we need to have a functional WebId certificate.
 
-*Prerequisites*
+**Summary**
+
+1. Create an asymetric key pair
+2. Create a certificate
+3. Import the certificate in your browser
+4. Add the certificate to your WebId profile
+
+**Prerequisites**
 
 You must have a [solid server](https://github.com/solid/node-solid-server#readme) running.
 
