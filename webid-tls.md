@@ -3,8 +3,8 @@
 **Introduction**
 
 In this tutorial you will learn how to setup your own certificate and put a public key in your solid pod to be authenticated with your browser. 
-Normally you could use a mechanism involving the html `<keygen>` element such as in [node-solid server](https://github.com/solid/node-solid-server#readme). Unfortunately this is [deprecated by major browsers](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Keygen).
 
+Normally you could use a mechanism involving the html `<keygen>` element such as in [node-solid server](https://github.com/solid/node-solid-server#readme). Unfortunately this is [deprecated by major browsers](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Keygen).
 Although, it should be replaced by one of these "one-click" solutions in the future :
 
 * The `<keygen>` element which is no longer supported could be replaced by an authentication api for browsers ;
