@@ -21,7 +21,7 @@ For now, we will manually create all we need to have a functional WebId certific
 
 **Prerequisites**
 
-You must have a [solid server](https://github.com/solid/node-solid-server#readme) running.
+You must have a [solid server](https://github.com/solid/node-solid-server#readme) running with an account.
 
 ## 1. Create an asymetric key pair
 
