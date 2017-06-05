@@ -153,7 +153,7 @@ Add the following line in the <#me> subject :
 
     cert:key <#public_key> .
 
-Add a new subject to the profile :
+Add a new subject to the profile with the data of 2.3 :
 
     <#public_key> 
         a cert:RSAPublicKey;
